@@ -1,0 +1,113 @@
+ 
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #3d8cda, #9a4ae4);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #3d8cda, #9a4ae4);
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+
+.main-content {
+    padding: 20px;
+    position: relative;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    gap: 450px;
+}
+
+.banner-content {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    
+    max-width: 300px;
+    flex: 5; 
+}
+
+.banner-content h2 {
+    font-size: 1rem;
+    margin: 0 0 10px;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 8px 15px;
+    background: linear-gradient(to right, #3d8cda, #9a4ae4);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.shop-button:hover {
+    background-color: #e60073;
+}
+
+
+
+.thumbnail-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    flex: 2; 
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #3d8cda, #9a4ae4);
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
