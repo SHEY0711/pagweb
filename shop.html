@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxGame - Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<style>
+    body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #3d8cda, #9a4ae4); /* Fondo degradado */
+}
+
+
+header {
+    background: linear-gradient(to right, #9a4ae4, #3d8cda );
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.shop-center {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+.shop-center h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.shop-center p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+
+.products {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.product {
+    background: linear-gradient(to right, #9a4ae4, #3d8cda );
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    width: 200px; 
+}
+
+.product img {
+    max-width: 100%;
+    height: auto; 
+    
+}
+
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #4c4c4c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #6c6c6c; /* Color al pasar el ratón */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #9a4ae4, #3d8cda);
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<body>
+    
+    <header>
+        <div class="navbar">
+            <h1 class="logo">BoxGame</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   
+    <section class="shop-center">
+        <h2>SALES CENTER</h2>
+        <p>En nuestra tienda, llevamos la pasión por los videojuegos a otro nivel. 
+            Creamos experiencias inmersivas que conectan jugadores de todo el mundo, ofreciendo productos
+             de calidad y tecnología de lo mejor.</p>
+        <div class="products">
+            <div class="product">
+                <img src="producto1.jpg" alt="Mando Xbox">
+                <h3>Mando xbox</h3>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="producto2.jpg" alt="PlayStation 5">
+                <h3>PlayStation 5</h3>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="producto3.jpg" alt="Pantalla Gamer">
+                <h3>Pantalla Gamer</h3>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="producto4.jpg" alt="Realidad Virtual">
+                <h3>Realidad Virtual</h3>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <p>BoxGame sheyla © 2024</p>
+    </footer>
+</body>
+</html>
